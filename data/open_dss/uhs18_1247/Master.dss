@@ -1,0 +1,31 @@
+Clear
+
+New Circuit.substation_uhs18_69 bus1=uhs18_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect uhs18_1247--udt11616/Transformers.dss
+Redirect Transformers.dss
+Redirect uhs18_1247--udt13374/Transformers.dss
+Redirect uhs18_1247--udt17294/Transformers.dss
+Redirect Regulators.dss
+Redirect uhs18_1247--udt11616/Loads.dss
+Redirect uhs18_1247--udt13374/Loads.dss
+Redirect uhs18_1247--udt17294/Loads.dss
+Redirect uhs18_1247--udt11616/LineCodes.dss
+Redirect LineCodes.dss
+Redirect uhs18_1247--udt13374/LineCodes.dss
+Redirect uhs18_1247--udt17294/LineCodes.dss
+Redirect uhs18_1247--udt11616/Lines.dss
+Redirect Lines.dss
+Redirect uhs18_1247--udt13374/Lines.dss
+Redirect uhs18_1247--udt17294/Lines.dss
+Redirect uhs18_1247--udt11616/Capacitors.dss
+Redirect uhs18_1247--udt13374/Capacitors.dss
+Redirect uhs18_1247--udt17294/Capacitors.dss
+
+Set Voltagebases=[12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

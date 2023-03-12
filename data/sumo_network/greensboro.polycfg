@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Sep 30 21:38:30 2020 by Eclipse SUMO polyconvert Version 98d19a78
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <net-file value="greensboro.net.xml"/>
+        <osm-files value="greensboro_bbox.osm.xml"/>
+        <osm.keep-full-type value="true"/>
+        <type-file value="/usr/local/opt/sumo/share/sumo/data/typemap/osmPolyconvert.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="greensboro.poly.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>

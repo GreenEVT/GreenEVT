@@ -1,0 +1,8 @@
+New Capacitor.uc35 Bus1=udt2257 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.uc35 Capacitor=uc35 Element=Line.padswitch(r:udt2257-udt2286)u_70082 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.uc38 Bus1=udt13525 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.uc38 Capacitor=uc38 Element=Line.l(r:udt13525-udt19798) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+

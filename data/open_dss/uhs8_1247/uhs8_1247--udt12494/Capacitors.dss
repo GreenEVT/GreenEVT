@@ -1,0 +1,8 @@
+New Capacitor.uc40 Bus1=udt8703 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.uc40 Capacitor=uc40 Element=Line.l(r:udt5848-udt8703) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.uc42 Bus1=udt8169 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.uc42 Capacitor=uc42 Element=Line.l(r:udt8169-udt8232) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+

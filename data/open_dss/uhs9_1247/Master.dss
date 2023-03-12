@@ -1,0 +1,40 @@
+Clear
+
+New Circuit.substation_uhs9_69 bus1=uhs9_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect uhs9_1247--udt11456/Transformers.dss
+Redirect uhs9_1247--udt14110/Transformers.dss
+Redirect uhs9_1247--udt16813/Transformers.dss
+Redirect uhs9_1247--udt2508/Transformers.dss
+Redirect uhs9_1247--udt13714/Transformers.dss
+Redirect Regulators.dss
+Redirect uhs9_1247--udt11456/Loads.dss
+Redirect uhs9_1247--udt14110/Loads.dss
+Redirect uhs9_1247--udt16813/Loads.dss
+Redirect uhs9_1247--udt2508/Loads.dss
+Redirect uhs9_1247--udt13714/Loads.dss
+Redirect LineCodes.dss
+Redirect uhs9_1247--udt11456/LineCodes.dss
+Redirect uhs9_1247--udt14110/LineCodes.dss
+Redirect uhs9_1247--udt16813/LineCodes.dss
+Redirect uhs9_1247--udt2508/LineCodes.dss
+Redirect uhs9_1247--udt13714/LineCodes.dss
+Redirect Lines.dss
+Redirect uhs9_1247--udt11456/Lines.dss
+Redirect uhs9_1247--udt14110/Lines.dss
+Redirect uhs9_1247--udt16813/Lines.dss
+Redirect uhs9_1247--udt2508/Lines.dss
+Redirect uhs9_1247--udt13714/Lines.dss
+Redirect uhs9_1247--udt14110/Capacitors.dss
+Redirect uhs9_1247--udt16813/Capacitors.dss
+Redirect uhs9_1247--udt2508/Capacitors.dss
+Redirect uhs9_1247--udt13714/Capacitors.dss
+
+Set Voltagebases=[12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

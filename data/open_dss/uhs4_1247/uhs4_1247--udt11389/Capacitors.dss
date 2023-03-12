@@ -1,0 +1,4 @@
+New Capacitor.uc22 Bus1=p1umv67 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.uc22 Capacitor=uc22 Element=Line.padswitch(r:p1umv67-udt1945)u_68157 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+

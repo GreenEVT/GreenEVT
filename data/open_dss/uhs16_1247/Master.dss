@@ -1,0 +1,26 @@
+Clear
+
+New Circuit.substation_uhs16_69 bus1=uhs16_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect uhs16_1247--udt310/Transformers.dss
+Redirect Transformers.dss
+Redirect uhs16_1247--udt15512/Transformers.dss
+Redirect Regulators.dss
+Redirect uhs16_1247--udt310/Loads.dss
+Redirect uhs16_1247--udt15512/Loads.dss
+Redirect uhs16_1247--udt310/LineCodes.dss
+Redirect LineCodes.dss
+Redirect uhs16_1247--udt15512/LineCodes.dss
+Redirect uhs16_1247--udt310/Lines.dss
+Redirect Lines.dss
+Redirect uhs16_1247--udt15512/Lines.dss
+Redirect uhs16_1247--udt310/Capacitors.dss
+Redirect uhs16_1247--udt15512/Capacitors.dss
+
+Set Voltagebases=[12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

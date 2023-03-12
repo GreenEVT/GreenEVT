@@ -1,0 +1,4 @@
+New Capacitor.uc47 Bus1=p1umv88 phases=3 Kv=12.47 conn=Wye Kvar=600.0
+
+New CapControl.uc47 Capacitor=uc47 Element=Line.padswitch(r:p1umv88-udt11081)u_72505 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+

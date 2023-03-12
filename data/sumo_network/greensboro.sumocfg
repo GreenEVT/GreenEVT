@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Sep 30 21:39:43 2020 by Eclipse SUMO sumo Version 98d19a78
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="greensboro.net.xml"/>
+        <additional-files value="greensboro.poly.xml"/>
+        <route-files value="scenarios/allatonce.rou.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <!--<routing>
+        <device.rerouting.adaptation-steps value="180"/>
+    </routing>-->
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="greensboro.view.xml"/>
+    </gui_only>
+
+    <time>
+         <time-to-teleport value="1800" />
+    </time>
+
+</configuration>
