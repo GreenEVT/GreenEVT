@@ -1,0 +1,9 @@
+*.db filter=lfs diff=lfs merge=lfs -text
+*.net.xml filter=lfs diff=lfs merge=lfs -text
+*.dbf filter=lfs diff=lfs merge=lfs -text
+*.shp filter=lfs diff=lfs merge=lfs -text
+*.rou.xml filter=lfs diff=lfs merge=lfs -text
+*.flow.xml filter=lfs diff=lfs merge=lfs -text
+*.add.xml filter=lfs diff=lfs merge=lfs -text
+*.log.xml filter=lfs diff=lfs merge=lfs -text
+*.db.backup filter=lfs diff=lfs merge=lfs -text
