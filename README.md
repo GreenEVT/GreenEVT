@@ -6,6 +6,8 @@ A preprint describing the testbed will soon appear:
 
 G Nilsson, ADO Aquino, S Coogan, DK Molzhan. "GreenEVT: Greensboro Electric Vehicle Testbed"
 
+**This project is using [Git LFS](https://git-lfs.com/), so make sure to have it installed before you clone**
+
 ## Contributors
 
 * [Gustav Nilsson](https://gustavnilsson.name)
