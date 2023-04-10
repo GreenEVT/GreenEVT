@@ -29,6 +29,7 @@ def route_with_duarouter(dst_path: str, region_name: str):
         f" --output-file={dst_path}/sumo_generated/routes/{region_name}.rou.xml"
         f" --repair=true"
         f" --remove-loops=true",
+        f" --ignore-errors=true",
         stdout=PIPE,
         stderr=STDOUT,
         shell=True,
