@@ -1,10 +1,9 @@
 # GreenEVT Project
 Please go to our [Wiki](https://github.com/GreenEVT/GreenEVT/wiki) for information on what the platform is about, how to get started, etc. 
 
+The testbed is further described in the following preprint (please use this for citation)
 
-A preprint describing the testbed will soon appear:
-
-G Nilsson, ADO Aquino, S Coogan, DK Molzhan. "GreenEVT: Greensboro Electric Vehicle Testbed"
+Gustav Nilsson, Alejandro D. Owen Aquino, Samuel Coogan, Daniel K. Molzahn. [GreenEVT: Greensboro Electric Vehicle Testbed](https://arxiv.org/abs/2305.12722). arXiv:2305.12722 
 
 **This project is using [Git LFS](https://git-lfs.com/), so make sure to have it installed before you clone**
 
