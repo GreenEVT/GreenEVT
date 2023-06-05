@@ -7,6 +7,8 @@ Gustav Nilsson, Alejandro D. Owen Aquino, Samuel Coogan, Daniel K. Molzahn. [Gre
 
 **This project is using [Git LFS](https://git-lfs.com/), so make sure to have it installed before you clone**
 
+**In case you can not clone the project due to qouta limits, all the project files can also be downloaded from [https://gustavnilsson.name/files/GreenEVT.zip](https://gustavnilsson.name/files/GreenEVT.zip)**
+
 ## Contributors
 
 * [Gustav Nilsson](https://gustavnilsson.name)
