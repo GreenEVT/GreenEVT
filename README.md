@@ -17,3 +17,9 @@ G. Nilsson, A. D. O. Aquino, S. Coogan and D. K. Molzahn, "[GreenEVT: Greensboro
 * [Daniel K. Molzahn](https://molzahn.github.io/index.html)
 * [Yilun "Allen" Chen](https://www.linkedin.com/in/yilun-allen-chen-572b71141/)
 * [Katelyn Iles](https://www.linkedin.com/in/katelyn-iles/)
+
+
+A huge thank you to the following persons for their bug reports:
+
+* Justin Linus Ren 
+
